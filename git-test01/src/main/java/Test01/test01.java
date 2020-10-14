@@ -10,5 +10,10 @@ public class test01 {
         System.out.println("bbb");
         System.out.println("ccc");
         System.out.println("ddd");
+
+        //这样的话就会出现冲突
+        System.out.println("员工2更改了代码，没有push到远程仓库，但是要从远程仓库更新代码");
+
+        //如果先将员工2的代码commit到本地仓库，在pull的话，如果有冲突，就可以对两个员工的代码进行选择
     }
 }
