@@ -11,6 +11,8 @@ public class test01 {
         System.out.println("ccc");
         System.out.println("ddd");
 
+        System.out.println("员工1更改了代码，并且push到远程仓库");
+
         //这样的话就会出现冲突
         System.out.println("员工2更改了代码，没有push到远程仓库，但是要从远程仓库更新代码");
 
